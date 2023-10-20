@@ -1,0 +1,74 @@
+{
+  "resume": [
+    {
+      "id": 0,
+      "company_name": "PBA Group - Robotics & Automation",
+      "role": "Application Engineer",
+      "role_type": "Full time",
+      "period": "Feb 2017 - Apr 2019 · 2 yrs 3 mos",
+      "year": "2017",
+      "location": "Singapore",
+      "description": [
+        "Automate production ground with Industrial and Collaborative Robots",
+        "Peripheral integration with robot using C# and JavaScript",
+        "Created Universal Robot cap application for company’s linear motor driver product",
+        "Basic Graphical User Design for integrated peripherals using Windows Form/WPF, HTML5 CSS.",
+        "Assist in project evaluation when external device communication is needed with Robot",
+        "Conduct basic to advanced Collaborative robots training",
+        "Conduct High level projects (e.g. polishing and welding) that require lower level control of robot through vendor provided API (C#)"
+      ],
+      "links": [],
+      "is_present": false
+    },
+    {
+      "id": 1,
+      "company_name": "Lite-On Singapore",
+      "role": "Software Engineer",
+      "role_type": "Full time",
+      "period": "May 2019 - Jun 2020 · 1 yr 2 mos",
+      "year": "2019",
+      "location": "Singapore",
+      "description": [
+        "Develop modular software libraries in C# for manufacturing machine",
+        "Develop GUI using Prism Library 7.1 (MVVM)",
+        "Develop GUI using Material Design Xaml to give an intuitive design across the system",
+        "Implement Test-Driven Development for software libraries using MS Test",
+        "Software libraries for in-house developed firmware device",
+        "Conduct basic to advanced Collaborative robots training"
+      ],
+      "links": [],
+      "is_present": false
+    },
+    {
+      "id": 2,
+      "company_name": "IHiS (Integrated Health Information Systems)",
+      "role": "Software Engineer",
+      "role_type": "Full time",
+      "period": "Jun 2020 - Mar 2022 · 1 yr 10 mos",
+      "year": "2020",
+      "location": "Singapore",
+      "description": [
+        "Part of the Vaccination Operation Team that develops features for Singapore Vaccination Programme.",
+        "Developer for GPConnect",
+        "Maintain and develop new features based on C# WPF.",
+        "Maintain Vital Sign Monitoring app used by community isolation facility based on asp.net core and react"
+      ],
+      "links": ["https://www.synapxe.sg/healthtech/solutions/gpconnect/"],
+      "is_present": false
+    },
+    {
+      "id": 3,
+      "company_name": "Singapore Institute of Technology",
+      "role": "Research Engineer",
+      "role_type": "Full time",
+      "period": "Aug 2022 - Present",
+      "year": "2022",
+      "location": "Singapore",
+      "description": [
+        "OnChainScan: An Online Blockchain Smart Contract Vulnerability Scanner",
+        "SDN on Quantum network"
+      ],
+      "is_present": true
+    }
+  ]
+}

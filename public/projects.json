@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "header": "CMS for doctors and nurses",
+      "description": "An app built for GP Clinics in Singapore, was part of the team that support it during COVID-19",
+      "externalURL": [""],
+      "githubURL": [""],
+      "imageURL": "",
+      "techStacks": ["WPF"]
+    },
+    {
+      "id": 1,
+      "header": "Liquidity farming",
+      "description": "A basic smart contract project that demonstrate staking",
+      "externalURL": ["https://colinlsh.github.io/colintechcontract/"],
+      "githubURL": ["https://github.com/Colinlsh/lpfarming"],
+      "imageURL": "",
+      "techStacks": ["Solidity", "React", "Tailwind"]
+    }
+  ]
+}
