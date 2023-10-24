@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://colinlsh.github.io/react-gh-pages",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
