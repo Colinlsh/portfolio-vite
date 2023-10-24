@@ -1,9 +1,9 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
-import { Project } from "../../API";
+import { ProjectModel } from "../../app/models";
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
-  cardModel?: Project;
+  cardModel?: ProjectModel;
 }
 
 const Card: React.FC<CardProps> = ({ cardModel, ...props }) => {

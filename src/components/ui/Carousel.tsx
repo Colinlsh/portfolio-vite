@@ -1,12 +1,12 @@
 import {
   animate,
-  AnimationOptions,
   motion,
   MotionStyle,
   useMotionValue,
+  ValueAnimationTransition,
 } from "framer-motion";
 import { wrap } from "popmotion";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { BsDot } from "react-icons/bs";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import {
@@ -49,10 +49,6 @@ const Carousel: React.FC<Props> = ({
 
   const x = useMotionValue(0);
 
-  const cardRef = useRef<HTMLDivElement>(null);
-
-  let cardWidth = 0;
-
   useEffect(() => {
     if (!isInfinite) {
       return;
@@ -77,15 +73,10 @@ const Carousel: React.FC<Props> = ({
     return null;
   }
 
-  const { current: elContainer } = cardRef;
-  if (elContainer) {
-    cardWidth = elContainer.clientWidth;
-  }
-
   const calculateNewX = () =>
     -childIndex * (containerRef.current?.clientWidth || 0);
 
-  const transition: AnimationOptions<any> = {
+  const transition: ValueAnimationTransition<number> = {
     type: "spring",
     bounce: 0,
   };
@@ -108,7 +99,7 @@ const Carousel: React.FC<Props> = ({
               }}
               drag="x"
               dragElastic={0.3}
-              onDragEnd={(e, { offset, velocity }) => {
+              onDragEnd={(e, { offset }) => {
                 const clientWidth = containerRef.current?.clientWidth || 0;
 
                 if (offset.x > clientWidth / 4) {
