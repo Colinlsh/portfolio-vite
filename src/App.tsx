@@ -48,7 +48,6 @@ function App() {
           </div>
         }
       />
-      <Route path="/cms/login" element={<Login />} />
     </Routes>
   );
 }
