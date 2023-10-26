@@ -23,7 +23,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/portfolio-vite/"
+        path="/"
         element={
           <div
             className="h-full w-full
