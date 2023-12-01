@@ -70,7 +70,7 @@ const Hero = () => {
               <img
                 src={personalPhoto1}
                 alt="/"
-                className="lg:w-[50%] w-[80%] rounded-3xl"
+                className="lg:w-[50%] xl:w-[30%] w-[80%] rounded-3xl"
               />
             </div>
           </div>
